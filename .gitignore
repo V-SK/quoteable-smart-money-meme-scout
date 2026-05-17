@@ -12,3 +12,4 @@ data/
 *.duckdb
 *.tmp
 *.log
+*.local.md
