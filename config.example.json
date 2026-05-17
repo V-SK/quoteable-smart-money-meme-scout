@@ -1,0 +1,65 @@
+{
+  "skill_name": "quoteable-smart-money-meme-scout",
+  "version": "0.1.0",
+  "mode": "paper",
+  "execution": {
+    "default_mode": "paper",
+    "live_enabled": false,
+    "executor": "onchainos_agentic_wallet_only_future_mode",
+    "wallet_export_allowed": false,
+    "private_key_handling": "forbidden"
+  },
+  "chains": ["solana", "xlayer"],
+  "discovery": {
+    "primary_source": "onchainos",
+    "sources": [
+      "token_hot_tokens",
+      "signal_smart_money",
+      "memepump_migrated",
+      "memepump_migrating"
+    ],
+    "max_candidates": 50
+  },
+  "quote": {
+    "notional_ladder_usd": [5, 10],
+    "max_age_seconds": 60,
+    "max_slippage_bps": 350,
+    "require_entry_route": true,
+    "require_exit_route": true
+  },
+  "risk": {
+    "max_okx_risk_level": 2,
+    "min_liquidity_usd": 50000,
+    "max_top10_holder_pct": 35,
+    "max_bundler_pct": 5,
+    "block_active_paid_promotion": true,
+    "block_honeypot_or_security_block": true,
+    "forbidden_symbols": ["SOL", "WSOL", "OKB", "WOKB", "USDC", "USDT", "USD", "USD\u20ae0"],
+    "forbidden_solana_addresses": [
+      "11111111111111111111111111111111",
+      "So11111111111111111111111111111111111111112",
+      "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+    ]
+  },
+  "paper_trade": {
+    "base_position_usd": 5,
+    "max_open_positions": 1,
+    "max_new_positions_per_cycle": 1,
+    "hard_stop_pct": 10,
+    "time_stop_minutes": 120,
+    "take_profit_1_pct": 15,
+    "take_profit_1_sell_fraction": 0.33,
+    "trailing_activation_pct": 25,
+    "trailing_drawdown_pct": 12,
+    "liquidity_reduce_threshold": "warning",
+    "hard_liquidity_collapse_exit": true,
+    "no_averaging_down": true
+  },
+  "reporting": {
+    "write_candidate_report": true,
+    "write_risk_audit_log": true,
+    "write_paper_trade_ledger": true,
+    "telegram_report_only": false
+  }
+}
+

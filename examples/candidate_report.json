@@ -1,0 +1,115 @@
+{
+  "schema": "quoteable-smart-money-meme-scout.candidate_report.v1",
+  "mode": "paper_only",
+  "generated_at": "2026-05-17T00:00:00Z",
+  "safety": {
+    "live_trading": false,
+    "wallet_signing": false,
+    "private_key_handling": "forbidden",
+    "primary_source": "OnchainOS"
+  },
+  "summary": {
+    "total_candidates": 3,
+    "paper_candidate_count": 1,
+    "watch_count": 1,
+    "skip_count": 1
+  },
+  "candidates": [
+    {
+      "rank": 1,
+      "chain": "solana",
+      "symbol": "QSM",
+      "token_address": "QSM1111111111111111111111111111111111111111",
+      "source": "signal_smart_money",
+      "recommended_action": "paper_candidate",
+      "score": 86,
+      "reasons": [
+        "fresh entry quote available",
+        "fresh exit route available",
+        "risk level <= 2",
+        "holder concentration inside threshold",
+        "smart-money source present"
+      ],
+      "hard_blocks": [],
+      "soft_warnings": ["new token; paper-only sample required"],
+      "quote_evidence": {
+        "entry_route_available": true,
+        "exit_route_available": true,
+        "quote_age_seconds": 18,
+        "notional_usd": 5,
+        "estimated_slippage_bps": 94
+      },
+      "risk_evidence": {
+        "okx_risk_level": 1,
+        "security_scan_status": "ok",
+        "active_paid_promotion": false,
+        "liquidity_usd": 128400,
+        "top10_holder_pct": 24.6,
+        "bundler_pct": 2.1
+      },
+      "exit_plan": {
+        "hard_stop_pct": 10,
+        "time_stop_minutes": 120,
+        "take_profit_1_pct": 15,
+        "take_profit_1_sell_fraction": 0.33,
+        "trailing_activation_pct": 25,
+        "trailing_drawdown_pct": 12
+      }
+    },
+    {
+      "rank": 2,
+      "chain": "solana",
+      "symbol": "WATCH",
+      "token_address": "WaTch11111111111111111111111111111111111111",
+      "source": "token_hot_tokens",
+      "recommended_action": "watch",
+      "score": 61,
+      "reasons": ["quoteable but signal score below paper threshold"],
+      "hard_blocks": [],
+      "soft_warnings": ["holder growth unconfirmed", "wallet flow unavailable"],
+      "quote_evidence": {
+        "entry_route_available": true,
+        "exit_route_available": true,
+        "quote_age_seconds": 31,
+        "notional_usd": 5,
+        "estimated_slippage_bps": 180
+      },
+      "risk_evidence": {
+        "okx_risk_level": 2,
+        "security_scan_status": "ok",
+        "active_paid_promotion": false,
+        "liquidity_usd": 76000,
+        "top10_holder_pct": 31.2,
+        "bundler_pct": 4.8
+      }
+    },
+    {
+      "rank": 3,
+      "chain": "solana",
+      "symbol": "BLOCK",
+      "token_address": "BL0ck11111111111111111111111111111111111111",
+      "source": "memepump_migrating",
+      "recommended_action": "skip",
+      "score": 0,
+      "reasons": ["hard block"],
+      "hard_blocks": ["okx_risk_level_blocked", "active_paid_promotion"],
+      "soft_warnings": [],
+      "quote_evidence": {
+        "entry_route_available": false,
+        "exit_route_available": false,
+        "quote_age_seconds": null,
+        "notional_usd": 5,
+        "estimated_slippage_bps": null
+      },
+      "risk_evidence": {
+        "okx_risk_level": 3,
+        "security_scan_status": "warning",
+        "active_paid_promotion": true,
+        "liquidity_usd": 41000,
+        "top10_holder_pct": 52.4,
+        "bundler_pct": 12.7
+      }
+    }
+  ]
+}
+

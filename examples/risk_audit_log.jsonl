@@ -1,0 +1,3 @@
+{"schema":"quoteable-smart-money-meme-scout.risk_audit_log.v1","mode":"paper_only","event_time":"2026-05-17T00:00:10Z","chain":"solana","symbol":"QSM","token_address":"QSM1111111111111111111111111111111111111111","decision":"paper_candidate","hard_blocks":[],"soft_warnings":["new token; paper-only sample required"],"live_execution":false}
+{"schema":"quoteable-smart-money-meme-scout.risk_audit_log.v1","mode":"paper_only","event_time":"2026-05-17T00:00:11Z","chain":"solana","symbol":"BLOCK","token_address":"BL0ck11111111111111111111111111111111111111","decision":"skip","hard_blocks":["okx_risk_level_blocked","active_paid_promotion"],"soft_warnings":[],"live_execution":false}
+

@@ -1,0 +1,79 @@
+{
+  "schema": "quoteable-smart-money-meme-scout.live_evidence_summary.v1",
+  "mode": "operator_in_the_loop",
+  "skill_live_trading": false,
+  "skill_signed": false,
+  "skill_broadcast": false,
+  "wallet_export_used": false,
+  "competition": "Agentic Trading Contest",
+  "competition_url": "https://web3.okx.com/boost/trading-competition/agentic-trading",
+  "snapshot_time_utc": "2026-05-17T15:56:20Z",
+  "snapshot_time_utc8": "2026-05-17 23:56:20 (UTC+8)",
+  "registered_account": "Account 1",
+  "public_wallets_masked": {
+    "evm_x_layer": "0x667e…25a4",
+    "solana": "BeC9NY…Yoqy5u"
+  },
+  "wallet_total_value_usd_observed": "793.70",
+  "observed_realized_pnl_usd_market_overview": "170.5532376636899",
+  "observed_realized_pnl_usd_competition_leaderboard": "167.7097059999999",
+  "observed_total_pnl_usd_recent_pnl": "177.077243897229194989663128257920741257665036",
+  "observed_unrealized_pnl_usd_recent_pnl": "6.524006233539299197576157257920741257665036",
+  "reported_observed_pnl_statement": "Observed wallet equity grew from approximately $500.00 starting capital to $793.70, an observed wallet equity return of about +58.7%. Competition leaderboard realized PnL shows about +$167.71, equal to about +33.5% on the same starting-capital reference; OnchainOS market realized PnL shows about +$170.55, about +34.1%.",
+  "observed_pnl_percent_leaderboard_raw": "0.13411893906846992",
+  "observed_pnl_percent_interpreted_pct": "13.41189390684699200",
+  "qualifying_volume_usd_observed_market_history": "1957.432366494890103229558210",
+  "qualifying_volume_usdc_wallet_flow": "1959.537443",
+  "trade_count_agentic_wallet_swap_txs": 4,
+  "market_buy_sell_fill_rows": 9,
+  "solana_buy_tx_count_market": "6",
+  "solana_sell_tx_count_market": "3",
+  "x_layer_buy_tx_count_market": "0",
+  "x_layer_sell_tx_count_market": "0",
+  "participation_volume_100_usd_currently_satisfied": true,
+  "participation_balance_100_usd_currently_satisfied": true,
+  "pnl_leaderboard_1000_usd_volume_currently_satisfied": true,
+  "rank_status": {
+    "pnl_percent_rank": 4,
+    "pnl_percent_expected_reward_usdc": "300",
+    "realized_pnl_rank": 8,
+    "realized_pnl_expected_reward_usdc": "300",
+    "rank_update_time_utc8": "2026-05-17 23:40:00 (UTC+8)"
+  },
+  "competition_end_time_utc8": "2026-05-21 18:00:00 (UTC+8)",
+  "competition_remaining_days_observed": "3.75",
+  "best_trade_observed": {
+    "basis": "best realized sell fill in market DEX history",
+    "symbol": "RKC",
+    "token_address": "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump",
+    "timestamp_utc8": "2026-05-17 22:47:47 (UTC+8)",
+    "value_usd": "504.644995767700028294964656",
+    "realized_pnl_usd": "121.461794749128666517868011"
+  },
+  "worst_trade_observed": {
+    "basis": "no negative realized sell fill observed; this is the smallest positive realized sell fill",
+    "symbol": "RKC",
+    "token_address": "7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump",
+    "timestamp_utc8": "2026-05-17 22:47:47 (UTC+8)",
+    "value_usd": "7.0847178957999998587605",
+    "realized_pnl_usd": "1.687771399302059755508"
+  },
+  "current_risk_status": "Realized PnL is positive, but current wallet value remains concentrated in an open Solana meme-token RKC position. Exit-route/liquidity/volatility risk remains; this live evidence does not claim autonomous execution or assured returns.",
+  "data_sources": [
+    "OnchainOS wallet balance --force (read-only)",
+    "OnchainOS wallet history for Solana/X Layer during competition window (read-only)",
+    "OnchainOS market portfolio overview / DEX history / recent PnL (read-only)",
+    "OnchainOS competition user-status/detail/rank (read-only)"
+  ],
+  "evidence_limitations": [
+    "Tx hashes are intentionally redacted in this package; full hashes remain visible in Agentic Wallet/Solscan for reviewer-side verification if shared separately.",
+    "Competition backend does not expose a single official qualifying-volume field in this read; qualifying volume is computed from observed non-stable/native RKC-USDC market history and wallet USDC flows.",
+    "Participation prize final eligibility depends on random balance snapshots and backend calculations throughout the competition period."
+  ],
+  "starting_capital_reference_usd": "500.00",
+  "observed_wallet_equity_return_pct": "58.74",
+  "observed_wallet_equity_delta_usd": "293.70",
+  "leaderboard_realized_pnl_return_on_starting_capital_pct": "33.54",
+  "market_realized_pnl_return_on_starting_capital_pct": "34.11",
+  "recent_total_pnl_return_on_starting_capital_pct": "35.42"
+}

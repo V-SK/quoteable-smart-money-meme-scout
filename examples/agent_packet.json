@@ -1,0 +1,29 @@
+{
+  "schema": "quoteable-smart-money-meme-scout.agent_packet.v1",
+  "mode": "paper_only",
+  "instruction": "Decide only among skip, watch, and paper_candidate. Do not request wallet export. Do not execute live swaps.",
+  "market_context": {
+    "chain": "solana",
+    "source": "OnchainOS",
+    "candidate_count": 3,
+    "quoteable_count": 2
+  },
+  "top_candidate": {
+    "symbol": "QSM",
+    "token_address": "QSM1111111111111111111111111111111111111111",
+    "decision": "paper_candidate",
+    "position_usd": 5,
+    "why": [
+      "fresh both-side route",
+      "risk evidence is inside thresholds",
+      "paper-only smart-money sample"
+    ],
+    "invalid_if": [
+      "exit quote becomes unavailable",
+      "liquidity risk escalates to hard_collapse",
+      "price reaches hard stop",
+      "time stop expires"
+    ]
+  }
+}
+

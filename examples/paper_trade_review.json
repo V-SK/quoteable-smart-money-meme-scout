@@ -1,0 +1,33 @@
+{
+  "schema": "quoteable-smart-money-meme-scout.paper_trade_review.v1",
+  "mode": "paper_only",
+  "position_id": "demo-001",
+  "chain": "solana",
+  "symbol": "QSM",
+  "token_address": "QSM1111111111111111111111111111111111111111",
+  "entry_reason": "Fresh both-side route and risk evidence passed paper thresholds.",
+  "exit_reason": "time_stop",
+  "realized_return_pct": 8.4,
+  "realized_pnl_usd": 0.42,
+  "mfe_pct": 13.2,
+  "mae_pct": -2.1,
+  "quote_quality": {
+    "entry_quote_age_seconds": 18,
+    "exit_quote_age_seconds": 22,
+    "entry_route_available": true,
+    "exit_route_available": true,
+    "mark_source": "fresh_exit_quote"
+  },
+  "liquidity_quality": {
+    "entry_liquidity_usd": 128400,
+    "exit_liquidity_usd": 134900,
+    "classification": "normal",
+    "false_collapse_risk": false
+  },
+  "lessons": [
+    "Time stop captured a small paper profit but did not reach the first take-profit threshold.",
+    "Fresh exit quote should remain the primary mark source."
+  ],
+  "live_execution": false
+}
+

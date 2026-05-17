@@ -1,0 +1,35 @@
+{
+  "schema": "quoteable-smart-money-meme-scout.submission_manifest.v1",
+  "generated_at": "2026-05-17T16:28:26+00:00",
+  "mode": "paper_only",
+  "standalone_public_repo": true,
+  "operator_in_the_loop_live_evidence": true,
+  "live_trading_by_skill": false,
+  "wallet_signing_by_skill": false,
+  "package": ".",
+  "validator_command": "python3 scripts/validate_skill_package.py .",
+  "demo_command": "python3 scripts/run_demo.py --output-dir /tmp/traderv-skill-demo",
+  "included_public_surfaces": [
+    "README.md",
+    "SKILL.md",
+    "SUBMISSION.md",
+    "LIVE_EVIDENCE.md",
+    "config.example.json",
+    "examples/",
+    "evidence/",
+    "scripts/run_demo.py",
+    "scripts/validate_skill_package.py"
+  ],
+  "excluded_private_materials": [
+    "config/competition.local.json",
+    "state/",
+    "reports/",
+    "data/",
+    "/Users/v/trading-data-lake",
+    "Telegram tokens",
+    "wallet private keys or mnemonics",
+    "GMGN/Moralis/private API keys",
+    "private strategy weights",
+    "historical research lake"
+  ]
+}
