@@ -10,7 +10,8 @@ Start here if you are reviewing the Skill:
 
 1. Read [OKX_REVIEW_ALIGNMENT.md](OKX_REVIEW_ALIGNMENT.md) for the judging-criteria mapping.
 2. Read [COMPETITOR_COMPARISON.md](COMPETITOR_COMPARISON.md) for the public Plugin Store comparison.
-3. Run the offline demo below to inspect candidate reports, paper ledger rows, risk audit logs, and review artifacts.
+3. Read [REVIEWER_EVIDENCE_INDEX.md](REVIEWER_EVIDENCE_INDEX.md) for the live-evidence map.
+4. Run the offline demo below to inspect candidate reports, paper ledger rows, risk audit logs, and review artifacts.
 
 The core submission claim is narrow and auditable: **OnchainOS-first discovery, fresh quoteability checks, explicit risk gating, paper-first execution, and operator-in-the-loop live evidence.**
 

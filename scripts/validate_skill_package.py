@@ -17,6 +17,7 @@ REQUIRED_FILES = [
     "README.md",
     "OKX_REVIEW_ALIGNMENT.md",
     "COMPETITOR_COMPARISON.md",
+    "REVIEWER_EVIDENCE_INDEX.md",
     "SUBMISSION.md",
     "LIVE_EVIDENCE.md",
     "config.example.json",
