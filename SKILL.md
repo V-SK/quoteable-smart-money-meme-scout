@@ -5,7 +5,7 @@ license: MIT
 metadata:
   author: TraderV
   version: "0.1.0"
-  homepage: "https://github.com/V-SK/TraderV"
+  homepage: "https://github.com/V-SK/quoteable-smart-money-meme-scout"
 ---
 
 # Quoteable Smart-Money Meme Scout

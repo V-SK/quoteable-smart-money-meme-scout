@@ -15,6 +15,8 @@ DEFAULT_PACKAGE = ROOT if (ROOT / "SKILL.md").exists() else ROOT / "skill" / "qu
 REQUIRED_FILES = [
     "SKILL.md",
     "README.md",
+    "OKX_REVIEW_ALIGNMENT.md",
+    "COMPETITOR_COMPARISON.md",
     "SUBMISSION.md",
     "LIVE_EVIDENCE.md",
     "config.example.json",
@@ -34,6 +36,7 @@ REQUIRED_FILES = [
 
 README_TERMS = [
     "One Page Pitch",
+    "Reviewer Fast Path",
     "Why It Fits The Competition",
     "operator-in-the-loop",
     "Safety",

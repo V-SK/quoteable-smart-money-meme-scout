@@ -11,6 +11,8 @@
   "demo_command": "python3 scripts/run_demo.py --output-dir /tmp/traderv-skill-demo",
   "included_public_surfaces": [
     "README.md",
+    "OKX_REVIEW_ALIGNMENT.md",
+    "COMPETITOR_COMPARISON.md",
     "SKILL.md",
     "SUBMISSION.md",
     "LIVE_EVIDENCE.md",

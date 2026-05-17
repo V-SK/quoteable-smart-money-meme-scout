@@ -4,6 +4,16 @@ An OnchainOS-first meme trading Skill for the OKX Agentic Wallet competition. It
 
 This package is the clean submission surface for TraderV. It deliberately leaves the private research lake, historical strategy search, teacher models, Telegram router, and private credentials outside the Skill.
 
+## Reviewer Fast Path
+
+Start here if you are reviewing the Skill:
+
+1. Read [OKX_REVIEW_ALIGNMENT.md](OKX_REVIEW_ALIGNMENT.md) for the judging-criteria mapping.
+2. Read [COMPETITOR_COMPARISON.md](COMPETITOR_COMPARISON.md) for the public Plugin Store comparison.
+3. Run the offline demo below to inspect candidate reports, paper ledger rows, risk audit logs, and review artifacts.
+
+The core submission claim is narrow and auditable: **OnchainOS-first discovery, fresh quoteability checks, explicit risk gating, paper-first execution, and operator-in-the-loop live evidence.**
+
 ## One Page Pitch
 
 | Area | What The Skill Does |
@@ -28,6 +38,8 @@ The product philosophy is intentionally conservative: **no fresh quote, no route
 - **Live evidence without unsafe automation:** real Agentic Wallet trades can be journaled as operator-confirmed evidence without giving the Skill signing power.
 - **Observed competition evidence:** the attached operator-in-the-loop snapshot records wallet equity growth from about `$500.00` to `$793.70` (`+58.7%` equity return) and leaderboard realized PnL of about `+$167.71` (`+33.5%` on the same starting-capital reference), with observed qualifying volume above `$1,900`.
 - **Operator control:** operator-in-the-loop live evidence can be attached from user-confirmed Agentic Wallet competition trades. The Skill records risk cards, token addresses, route evidence, and realized PnL, while the user retains execution control.
+
+See [OKX_REVIEW_ALIGNMENT.md](OKX_REVIEW_ALIGNMENT.md) for the full scoring-fit map.
 
 ## 90 Second Demo
 
