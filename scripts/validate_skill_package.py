@@ -109,9 +109,14 @@ def scan_for_secret_values(package: Path) -> list[str]:
     for path in package.rglob("*"):
         if not path.is_file():
             continue
-        if path.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif", ".pdf"}:
+        if any(part in {".git", "__pycache__"} for part in path.relative_to(package).parts):
             continue
-        text = read_text(path)
+        if path.suffix.lower() in {".png", ".jpg", ".jpeg", ".webp", ".gif", ".pdf", ".pyc"}:
+            continue
+        try:
+            text = read_text(path)
+        except UnicodeDecodeError:
+            continue
         for pattern in SECRET_VALUE_PATTERNS:
             if pattern.search(text):
                 errors.append(f"{path.relative_to(package)} appears to contain a secret-like value")
